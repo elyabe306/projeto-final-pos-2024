@@ -1,2 +1,8 @@
 # projeto-final-pos-2024
-Projeto Final da disciplina de POS
+meu fork não tá funcionando
+
+eu upei aqui
+
+https://github.com/elyabe306/ben10_api
+
+foi o que consegui fazer
