@@ -15,6 +15,11 @@ class PostsViewSet(viewsets.ModelViewSet):
     queryset = Posts.objects.all()
     serializer_class = PostsSerializer
 
+    def get_queryset(self):
+        
+        post_id = self.kwargs.get('post_id')
+        return Comments.objects.filter(post__id=post_id)
+
 class CommentsViewSet(viewsets.ModelViewSet):
 
     queryset = Comments.objects.all()
