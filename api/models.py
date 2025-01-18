@@ -32,8 +32,7 @@ class Posts(models.Model):
 
     def __str__(self):
         return self.title
-    def __str__(self):
-        return self.userId
+    
 
 class Comments(models.Model):
     postId = models.ForeignKey(Posts, on_delete=models.CASCADE)
