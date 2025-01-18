@@ -23,6 +23,4 @@ urlpatterns = [
     
 ]
 
-urlpatterns += router.urls
-
-urlpatterns = router.urls + posts_router.urls
+urlpatterns += router.urls + posts_router.urls
